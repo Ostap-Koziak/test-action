@@ -26,8 +26,8 @@ jobs:
         with:
           url: https://api.integ.inno.cybeats.com
           filePath: cybeats-sbom-studio-plugin-cyclonedx.json
-          secretAccessKey: ${{ secrets.SECRETKEY }}
-          accessKey: ${{ secrets.ACCESSKEY }}
+          secretAccessKey: ${{ secrets.API_SECRET_KEY }}
+          accessKey: ${{ secrets.API_ACCESS_KEY }}
           subType: application
           resourceGroupNames:
             -TestGroup-Richard-New 
